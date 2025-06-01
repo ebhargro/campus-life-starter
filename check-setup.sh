@@ -21,4 +21,8 @@ fi
 echo "Checking VS Code command line access..."
 code --version && echo "✅ VS Code CLI is available." || { echo "❌ VS Code CLI not installed."; exit 1; }
 
+
+echo "Checking Node..."
+node -v && npm -v && echo "✅ Node installed."
+
 echo "🎉 Environment looks good!"

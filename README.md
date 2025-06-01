@@ -21,11 +21,9 @@ This script will verify:
 
 - Git is installed
 
-- SSH keys are configured correctly
-
-- GitHub SSH connection works
-
 - VS Code is installed and accessible from the terminal
+
+- Node is installed
 
 ```
 bash check-setup.sh
